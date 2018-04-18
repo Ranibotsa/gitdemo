@@ -31,6 +31,7 @@ public class DriverEngine
 		 System.setProperty(DriverUtilities.chromeKey,DriverUtilities.chromeValue);
 		 driver=new ChromeDriver();
 		 browserInit();
+		 System.out.println("helllo");
 	 }
 	 else if(browser.equalsIgnoreCase("firefox"))
 	 {
